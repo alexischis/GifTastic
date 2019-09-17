@@ -3,7 +3,11 @@
 
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
   <title>Gifs</title>
+  <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Josefin+Sans&display=swap" rel="stylesheet">
   <style type="text/css">
     button,
     div,
@@ -15,7 +19,7 @@
 </head>
 
 <body>
-
+<header><h1>ANIMAL GIF-O-MANIA!</h1></header>
   <div class="container">
 
     <!-- Rendered buttons will get dumped here  -->
@@ -24,20 +28,16 @@
     <form id="animal-form">
       <label for="animal-input">Add an Animal!</label>
       <input type="text" id="animal-input"><br>
-
-      <!-- Button triggers new movie to be added -->
-      <input id="add-animal" type="submit" value="Add an Animal">
+      <input id="add-animal" type="submit" value="Submit">
     </form>
 
- <!-- Movies will get dumped Here -->
+ <!-- Animals will get dumped Here -->
  <div id="animals-view">
 
  </div>
 
  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
  <script src="assets\javascript\app.js"></script>
-  
-    </script>
   </div>
 </body>
 </html>
